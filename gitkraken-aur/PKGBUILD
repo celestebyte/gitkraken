@@ -21,6 +21,7 @@ optdepends=('git-lfs: git-lfs support'
             'org.freedesktop.secrets: Provides ways to store passwords and encryption keys')
 makedepends=()
 backup=()
+options=(!debug)
 install=''
 source=(
     "${pkgname}-${pkgver}.tar.gz::https://release.axocdn.com/linux/GitKraken-v${pkgver}.tar.gz"
