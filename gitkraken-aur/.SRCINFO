@@ -12,6 +12,7 @@ pkgbase = gitkraken
 	optdepends = git-lfs: git-lfs support
 	optdepends = org.freedesktop.secrets: Provides ways to store passwords and encryption keys
 	provides = gitkraken
+	options = !debug
 	source = gitkraken-9.13.0.tar.gz::https://release.axocdn.com/linux/GitKraken-v9.13.0.tar.gz
 	source = GitKraken.desktop
 	source = eula.html
